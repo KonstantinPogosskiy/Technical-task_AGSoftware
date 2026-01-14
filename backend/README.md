@@ -5,11 +5,12 @@ Backend API для управления
 Nest.js, TypeScript, PostgreSQL, Sequelize.
 
 ## Установка
+```bash
 npm install
 ```
 
-`.env`
-```
+## Переменные `.env`
+```bash
 PORT=3001
 DB_DIALECT=postgres
 DB_HOST=localhost
@@ -20,13 +21,15 @@ DB_USER=postgres
 DB_PASSWORD=postgres
 ```
 
-
-Запуск:
-```
+## Запуск:
+```bash
 npm run dev
+```
 
 ## API Endpoints
+```bash
 - `GET /tasks?page=1&limit=10&search=...` - Получить список задач с пагинацией и поиском
 - `POST /tasks` - Создать задачу
 - `PUT /tasks/:id` - Обновить задачу
 - `DELETE /tasks/:id` - Удалить задачу
+```
