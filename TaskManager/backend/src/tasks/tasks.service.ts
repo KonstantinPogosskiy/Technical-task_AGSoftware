@@ -1,10 +1,10 @@
 import { Injectable, NotFoundException, BadRequestException, Inject } from '@nestjs/common';
 import { InjectModel } from '@nestjs/sequelize';
 import { Op } from 'sequelize';
-import { Task } from '../tasks/entities/task.entity';
-import { CreateTaskDto } from '../tasks/dto/create-task.dto';
-import { UpdateTaskDto } from '../tasks/dto/update-task.dto';
-import { QueryTasksDto } from '../tasks/dto/query-tasks.dto';
+import { Task } from './entities/task.entity';
+import { CreateTaskDto } from './dto/create-task.dto';
+import { UpdateTaskDto } from './dto/update-task.dto';
+import { QueryTasksDto } from './dto/query-tasks.dto';
 
 @Injectable()
 export class TasksService {

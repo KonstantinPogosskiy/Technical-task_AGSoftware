@@ -1,7 +1,7 @@
 import { Module } from '@nestjs/common';
 import { SequelizeModule } from '@nestjs/sequelize';
-import { TasksController } from '../tasks/tasks.controller';
-import { TasksService } from '../tasks/tasks.service';
+import { TasksController } from './tasks.controller';
+import { TasksService } from './tasks.service';
 import { Task } from './entities/task.entity';
 
 @Module({

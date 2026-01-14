@@ -1,5 +1,5 @@
 # Task Manager Backend
-Backend API для управления
+http://localhost:3001
 
 # Инструмент
 Nest.js, TypeScript, PostgreSQL, Sequelize.

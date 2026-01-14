@@ -10,10 +10,10 @@ import {
   HttpCode,
   HttpStatus,
 } from '@nestjs/common';
-import { TasksService } from '../tasks/tasks.service';
-import { CreateTaskDto } from '../tasks/dto/create-task.dto';
-import { UpdateTaskDto } from '../tasks/dto/update-task.dto';
-import { QueryTasksDto } from '../tasks/dto/query-tasks.dto';
+import { TasksService } from './tasks.service';
+import { CreateTaskDto } from './dto/create-task.dto';
+import { UpdateTaskDto } from './dto/update-task.dto';
+import { QueryTasksDto } from './dto/query-tasks.dto';
 
 @Controller('tasks')
 export class TasksController {
