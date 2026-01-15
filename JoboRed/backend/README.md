@@ -25,6 +25,7 @@ DB_PASSWORD=postgres
 ```bash
 npm run dev
 ```
+Моковые данный создадуться автоматически
 
 ## API Endpoints
 ```bash
